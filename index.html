@@ -1,0 +1,3017 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>Chicken Station Website</title>
+	<link rel="icon" type="image/png" href="images\title-icon.png">
+    <!-- Swiper Link -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+
+    <!-- font awesome link -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+	<!-- css file link -->
+	<link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+<body>
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+<!---------------------------------------------------------- Head Section --------------------------------------------------------------->
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+<header>
+    <div class="logos">
+        <a href="#" class="logo"><img src="images/logo.png" alt="logo"> <p>Chicken Station</p><p class="logo-sub">Maitidevi</p></a>
+    </div>
+	
+	<nav class="navbar">
+        <a class="links" href="#home">home</a>
+        <a class="links" href="#dishes">dishes</a>
+        <a class="links" href="#about">about</a>
+        <a class="links" href="#menu">menu</a>
+    </nav>
+
+	<div class="icons">
+		<i class="fas fa-bars" id="menu-bars"></i>
+		<i class="fas fa-search" id="search-icon"></i>
+		<!--<a href="#" class="fas fa-heart"></a>
+		<a href="#" class="fas fa-shopping-cart"></a>-->
+	</div>
+</header>
+
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------- Search Form --------------------------------------------------------------->
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+
+<form action="" id="search-form">
+	<input type="search" placeholder="update coming soon..." name="" id="search-box">
+	<label for="search-box" class="fas fa-search"></label>
+	<i class="fas fa-times" id="close"></i>
+</form>
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+<!---------------------------------------------------------- Category Design ------------------------------------------------------------>
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+<div id="cartegory">
+	<div id="cartegory-placement">
+		<div class="list-card">
+			<img src="images/category/chopsuey_icon.png" alt="list" class="image-icon">
+			<a href="#chopsuey" class="category-list">Chopsuey</a>
+		</div>
+
+		<div class="list-card">
+			<img src="images/category/rice_bowl_icon.png" alt="list" class="image-icon">
+			<a href="#rice_bowl" class="category-list">Rice Bowl</a>
+		</div>
+
+		<div class="list-card" id="hdrink">
+			<img src="images/category/biryani_bowl_icon.png" alt="list" class="image-icon">
+			<a href="#biryani_bowl" class="category-list">Biryani Bowl</a>
+		</div>
+
+		<div class="list-card">
+			<img src="images/category/sizzler_icon.png" alt="list" class="image-icon">
+			<a href="#sizzler" class="category-list">Sizzler</a>
+		</div>
+
+		<div class="list-card">
+			<img src="images/category/pizza_icon.png" alt="list" class="image-icon">
+			<a href="#pizza" class="category-list">Pizza/Chizza</a>
+		</div>
+
+		<div class="list-card">
+			<img src="images/category/fried_chicken_icon.png" alt="list" class="image-icon">
+			<a href="#fried_chicken" class="category-list">Fried Chicken</a>
+		</div>
+
+		<div class="list-card">
+			<img src="images/category/family_combo_icon.png" alt="list" class="image-icon">
+			<a href="#family_combo" class="category-list">Family Combo</a>
+		</div>
+
+		<div class="list-card" id="hdrink">
+			<img src="images/category/economical_combo_icon.png" alt="list" class="image-icon">
+			<a href="#economical_combo" class="category-list">Economical Combo</a>
+		</div>
+
+		<div class="list-card">
+			<img src="images/category/burger_icon.png" alt="list" class="image-icon">
+			<a href="#burger" class="category-list">Burger</a>
+		</div>
+
+		<div class="list-card">
+			<img src="images/category/sandwich_icon.png" alt="list" class="image-icon">
+			<a href="#sandwich" class="category-list">Sandwich</a>
+		</div>
+
+		<div class="list-card">
+			<img src="images/category/soup_icon.png" alt="list" class="image-icon">
+			<a href="#soup" class="category-list">Soup</a>
+		</div>
+
+		<div class="list-card">
+			<img src="images/category/stick_food_icon.png" alt="list" class="image-icon">
+			<a href="#stick_food" class="category-list">Stick Food</a>
+		</div>
+
+		<div class="list-card" id="hdrink">
+			<img src="images/category/momo_icon.png" alt="list" class="image-icon">
+			<a href="#momo" class="category-list">Mo:mo</a>
+		</div>
+
+		<div class="list-card">
+			<img src="images/category/noodles_icon.png" alt="list" class="image-icon">
+			<a href="#noodles" class="category-list">Noodles</a>
+		</div>
+
+		<div class="list-card">
+			<img src="images/category/drinks_icon.png" alt="list" class="image-icon">
+			<a href="#drinks" class="category-list">Drinks</a>
+		</div>
+
+		<div class="list-card" id="hdrink">
+			<img src="images/category/veg_snacks_icon.png" alt="list" class="image-icon">
+			<a href="#veg_snacks" class="category-list">Veg Snacks</a>
+		</div>
+
+		<div class="list-card">
+			<img src="images/category/non_veg_snacks_icon.png" alt="list" class="image-icon">
+			<a href="#non_veg_snacks" class="category-list">Non-veg Snacks</a>
+		</div>
+
+		<div class="list-card">
+			<img src="images/category/salad_icon.png" alt="list" class="image-icon">
+			<a href="#salad" class="category-list">Salad</a>
+		</div>
+		<div class="list-card">
+			<img src="images/category/shakes_icon.png" alt="list" class="image-icon">
+			<a href="#shakes" class="category-list">Shakes</a>
+		</div>
+	</div>
+</div>
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+<!---------------------------------------------------------- Home Section --------------------------------------------------------------->
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+<div class="home active_menu" id="home">
+    <!-- Slider main container -->
+    <div class="swiper home-slider">
+        <!-- Additional required wrapper -->
+        <!--<h1 class="home_title">swiper.js</h1>-->
+        <div class="wrapper swiper-wrapper">
+
+            <!-- Slides -->
+            <div class="slide swiper-slide">
+                <div class="image">
+                    <img src="images/home-img-1.png" alt="">
+                    <div class="content">
+                        <span>our special dish</span>
+                        <h3>spicy noodles</h3>
+                        <p>"Sometimes just a plate of noodles could be the best dinner ever with the person you love most."</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slide swiper-slide">
+                <div class="image">
+                    <img src="images/home-img-2.png" alt="">
+                    <div class="content">
+                        <span>our special dish</span>
+                        <h3>Grilled Chicken</h3>
+                        <p>"A woman had two chickens. One got sick, so the woman made chicken soup out of the other one to help the sick one get well. "</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slide swiper-slide">
+                <div class="image">
+                    <img src="images/home-img-3.png" alt="">
+                    <div class="content">
+                        <span>our special dish</span>
+                        <h3>Chicken Pizza</h3>
+                        <p>"Pizza is not a 'trend' it's a way of life"</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-pagination"></div>
+
+    </div>
+
+</div>
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+<!---------------------------------------------------------- Dish Section --------------------------------------------------------------->
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+<div class="dishes back_change active_menu" id="dishes">
+
+    <h3 class="sub-heading"> our dishes </h3>
+    <h1 class="heading"> popular dishes </h1>
+
+    <div class="box-container">
+        <div class="box">
+            <i class="fas fa-heart"></i>
+            <i class="fas fa-eye"></i>
+            <img src="images/dish-1.png" alt="">
+            <h3>Ham Burger</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>Rs. 190</span>
+            <!--<a href="#" class="btn">add to cart</a>-->
+        </div>
+
+        <div class="box">
+            <i class="fas fa-heart"></i>
+            <i class="fas fa-eye"></i>
+            <img src="images/dish-2.png" alt="">
+            <h3>Chicken Popcorn</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>Rs. 350</span>
+            <!--<a href="#" class="btn">add to cart</a>-->
+        </div>
+
+        <div class="box">
+            <i class="fas fa-heart"></i>
+            <i class="fas fa-eye"></i>
+            <img src="images/dish-3.png" alt="">
+            <h3>Grilled Chicken</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>Rs. 435</span>
+            <!--<a href="#" class="btn">add to cart</a>-->
+        </div>
+
+        <div class="box">
+            <i class="fas fa-heart"></i>
+            <i class="fas fa-eye"></i>
+            <img src="images/dish-4.png" alt="">
+            <h3>Chicken Pizza</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>Rs. 445</span>
+            <!--<a href="#" class="btn">add to cart</a>-->
+        </div>
+
+        <div class="box">
+            <i class="fas fa-heart"></i>
+            <i class="fas fa-eye"></i>
+            <img src="images/dish-5.png" alt="">
+            <h3>Chicken Sizzler</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>Rs. 530</span>
+            <!--<a href="#" class="btn">add to cart</a>-->
+        </div>
+
+        <div class="box">
+            <i class="fas fa-heart"></i>
+            <i class="fas fa-eye"></i>
+            <img src="images/dish-6.png" alt="">
+            <h3>Fried Chicken 2pcs</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>Rs. 390</span>
+            <!--<a href="#" class="btn">add to cart</a>-->
+        </div>
+
+    </div>
+
+</div>
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+<!---------------------------------------------------------- About Section --------------------------------------------------------------->
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+<div class="about active_menu" id="about">
+
+    <h3 class="sub-heading"> about us </h3>
+    <h1 class="heading"> why choose us? </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/about-img.png" alt="">
+        </div>
+
+        <div class="content">
+            <h3>best food in the country</h3>
+            <p>Cooking is all about people. Food is maybe the only universal thing that really has the power to bring everyone together. No matter what culture, everywhere around the world, people eat together.</p>
+            <p>And we cook only for you and your close ones to make them even more close to you. We bind you together with your love ones with our food. Choose us in your happyness and sadness coz we will cook for you all the time.</p>
+        </div>
+	</div>
+</div>
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+<!---------------------------------------------------------- Menu Section --------------------------------------------------------------->
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+<div class="menu back_change active_menu" id="menu">
+
+    <h3 class="sub-heading"> our menu </h3>
+    <h1 class="heading"> Regular's speciality </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image">
+                <img src="images/menu-1.png" alt="">
+                <i class="fas fa-heart"></i>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Chicken Cheeza</h3>
+                <p>When you eat food with your family and friends, it always tastes better! So, enjoy your food with everyone</p>
+                <span class="price">Rs. 340</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/menu-2.png" alt="">
+                <i class="fas fa-heart"></i>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Hot Wings</h3>
+                <p>When you eat food with your family and friends, it always tastes better! So, enjoy your food with everyone</p>
+                <span class="price">Rs. 410</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/menu-3.png" alt="">
+                <i class="fas fa-heart"></i>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Chicken Strips</h3>
+                <p>When you eat food with your family and friends, it always tastes better! So, enjoy your food with everyone</p>
+                <span class="price">Rs. 410</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/menu-4.png" alt="">
+                <i class="fas fa-heart"></i>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Chi. Popcorn</h3>
+                <p>When you eat food with your family and friends, it always tastes better! So, enjoy your food with everyone</p>
+                <span class="price">Rs. 350</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/menu-5.png" alt="">
+                <i class="fas fa-heart"></i>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Veg Biryani</h3>
+                <p>When you eat food with your family and friends, it always tastes better! So, enjoy your food with everyone</p>
+                <span class="price">Rs. 330</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/menu-6.png" alt="">
+                <i class="fas fa-heart"></i>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Ham Burger</h3>
+                <p>When you eat food with your family and friends, it always tastes better! So, enjoy your food with everyone</p>
+                <span class="price">Rs. 190</span>
+            </div>
+        </div>
+    </div>
+</div>
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------- Food Card Section ------------------------------------------------------------->
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------->
+<!-------------------------------------- chopsuey ----------------------------------------------->
+<!----------------------------------------------------------------------------------------------->
+<div class="box-main-container" id="chopsuey" >
+	<dl>
+		<dt><p>Chopsuey</p></dt>
+		<dd>
+			<div class="box-container">
+				<div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/chopsuey/chicken_chopsuey.png" alt="" class="images">
+                    <h3>Chicken Chopsuey</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 280</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/chopsuey/chinese_chopsuey.png" alt="" class="images">
+                    <h3>Chinese Chopsuey</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 295</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/chopsuey/american_chopsuey.png" alt="" class="images">
+                    <h3>American Chopsuey</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 310</span>
+                </div>
+            </div>
+		</dd>
+	</dl>
+</div>
+<!----------------------------------------------------------------------------------------------->
+<!------------------------------------- rice bowl ----------------------------------------------->
+<!----------------------------------------------------------------------------------------------->
+<div class="box-main-container" id="rice_bowl" >
+	<dl>
+		<dt><p>Rice Bowl</p></dt>
+		<dd>
+			<div class="box-container">
+				<div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/rice_bowl/chicken_rice_bowl.png" alt="" class="images">
+                    <h3>Chicken Rice Bowl</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 225</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/rice_bowl/buff_rice_bowl.png" alt="" class="images">
+                    <h3>Buff Rice Bowl</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 225</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/rice_bowl/veg_rice_bowl.png" alt="" class="images">
+                    <h3>Veg Rice Bowl</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 200</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/rice_bowl/keema_fried_rice.png" alt="" class="images">
+                    <h3>Keema Fried Rice</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 280</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/rice_bowl/chicken_fried_rice.png" alt="" class="images">
+                    <h3>Chicken Fried Rice</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 195</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/rice_bowl/buff_rice_bowl.png" alt="" class="images">
+                    <h3>Buff Rice Bowl</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 225</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/rice_bowl/veg_fried_rice.png" alt="" class="images">
+                    <h3>Veg Fried Rice</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 160</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/rice_bowl/egg_fried_rice.png" alt="" class="images">
+                    <h3>Egg fried Rice</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 190</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/rice_bowl/mixed_fried_rice.png" alt="" class="images">
+                    <h3>Mixed Fried Rice</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 250</span>
+                </div>
+
+            </div>
+		</dd>
+	</dl>  
+</div>
+<!----------------------------------------------------------------------------------------------->
+<!------------------------------------ Biryani Bowl --------------------------------------------->
+<!----------------------------------------------------------------------------------------------->
+<div class="box-main-container" id="biryani_bowl" >
+	<dl>
+		<dt><p>Biryani Bowl</p></dt>
+		<dd>
+			<div class="box-container">
+				<div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/biryani_bowl/chicken_biryani.png" alt="" class="images">
+                    <h3>Chicken Biryani</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 385</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/biryani_bowl/veg_biryani.png" alt="" class="images">
+                    <h3>Veg Biryani</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 330</span>
+                </div>
+            </div>
+		</dd>
+	</dl>  
+</div>
+<!----------------------------------------------------------------------------------------------->
+<!------------------------------------ Sizzler --------------------------------------------->
+<!----------------------------------------------------------------------------------------------->
+<div class="box-main-container" id="sizzler" >
+	<dl>
+		<dt><p>Sizzler</p></dt>
+		<dd>
+			<div class="box-container">
+				<div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/sizzler/Chicken_sizzler.png" alt="" class="images">
+                    <h3>Chicken Sizzler</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 330</span>
+                </div>
+            </div>
+		</dd>
+	</dl>  
+</div>
+<!----------------------------------------------------------------------------------------------->
+<!------------------------------------ Pizza/Chizza --------------------------------------------->
+<!----------------------------------------------------------------------------------------------->
+<div class="box-main-container" id="pizza" >
+	<dl>
+		<dt><p>Pizza</p></dt>
+		<dd>
+			<div class="box-container">
+				<div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/pizza/chicken_pizza.png" alt="" class="images">
+                    <h3>Chicken Pizza</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 445</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/pizza/cheese_pizza.png" alt="" class="images">
+                    <h3>Cheese Pizza</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 425</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/pizza/mushroom_pizza.png" alt="" class="images">
+                    <h3>Mushroom Pizza</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 425</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/pizza/mix_pizza.png" alt="" class="images">
+                    <h3>Mix Pizza</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 480</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/pizza/chicken_cheeza.png" alt="" class="images">
+                    <h3>Chicken Cheeza</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 340</span>
+                </div>
+            </div>
+		</dd>
+	</dl>  
+</div>
+<!----------------------------------------------------------------------------------------------->
+<!------------------------------------ Fried Chicken -------------------------------------------->
+<!----------------------------------------------------------------------------------------------->
+<div class="box-main-container" id="fried_chicken" >
+	<dl>
+		<dt><p>Fried Chicken</p></dt>
+		<dd>
+			<div class="box-container">
+				<div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/fried_chicken/1_pc.png" alt="" class="images">
+                    <h3>Fried Chicken 1 Pc</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 205</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/fried_chicken/2_pcs.png" alt="" class="images">
+                    <h3>Fried Chicken 2 Pcs</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 390</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/fried_chicken/4_pcs.png" alt="" class="images">
+                    <h3>Fried Chicken 4 Pcs</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 720</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/fried_chicken/8_pcs.png" alt="" class="images">
+                    <h3>Fried Chicken 8 Pcs</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 1370</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/fried_chicken/hot_wings.png" alt="" class="images">
+                    <h3>Hot wings</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 410</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/fried_chicken/chicken_strips.png" alt="" class="images">
+                    <h3>Chicken Strips</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 410</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/fried_chicken/chicken_popcorn.png" alt="" class="images">
+                    <h3>Chicken Popcorn</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 350</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/fried_chicken/grilled_chicken_with_bbq_sauce.png" alt="" class="images">
+                    <h3>Grilled Chicken with BBQ Sauce</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 435</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/fried_chicken/crazy_meat_ball+coke.png" alt="" class="images">
+                    <h3>Crazy Meat Ball + Coke</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 375</span>
+                </div>
+            </div>
+		</dd>
+	</dl>  
+</div>
+<!----------------------------------------------------------------------------------------------->
+<!------------------------------------ Family Combo --------------------------------------------->
+<!----------------------------------------------------------------------------------------------->
+<div class="box-main-container" id="family_combo" >
+	<dl>
+		<dt><p>Family Combo</p></dt>
+		<dd>
+			<div class="box-container">
+				<div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/family_combo/8_pcs_fried_chicken+1_ltr_coke.png" alt="" class="images">
+                    <h3>8 Pcs Fried Chicken + 1 Ltr Coke</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 1430</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/family_combo/18_pcs_hot_wings+1_ltr_coke.png" alt="" class="images">
+                    <h3>18 Pcs Hot wings + 1 Ltr coke</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 1305</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/family_combo/1_pc_burger+1_pc_chicken+coke.png" alt="" class="images">
+                    <h3>1 pc Burger + 1 Pc chicken + Coke</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 560</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/family_combo/1_rice_bowl+1_plate_chhoila+coke.png" alt="" class="images">
+                    <h3>1 Rice Bowl + 1 Plate Chhoila + Coke</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 560</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/family_combo/8_pcs_chicken+crunchy_burger+hot_wing+biryani+1_ltr_coke.png" alt="" class="images">
+                    <h3>8 Pcs Chicken + Crunchy Burger + Hot Wing + Biryani + 1 Ltr Coke</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 2425</span>
+                </div>
+            </div>
+		</dd>
+	</dl>  
+</div>
+<!----------------------------------------------------------------------------------------------->
+<!------------------------------------ Economical Comboo --------------------------------------------->
+<!----------------------------------------------------------------------------------------------->
+<div class="box-main-container" id="economical_combo" >
+	<dl>
+		<dt><p>Economial Combo (9:00 AM To 1:00 PM Everyday)</p></dt>
+		<dd>
+			<div class="box-container">
+				<div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/economical_combo/burger+coke+fries.png" alt="" class="images">
+                    <h3>Burger + Coke + Fries</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 225</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/economical_combo/rice_bowl+coke.png" alt="" class="images">
+                    <h3>Rice Bowl + Coke</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 225</span>
+                </div>
+            </div>
+		</dd>
+	</dl>  
+</div>
+<!----------------------------------------------------------------------------------------------->
+<!------------------------------------ Burger --------------------------------------------->
+<!----------------------------------------------------------------------------------------------->
+<div class="box-main-container" id="burger" >
+	<dl>
+		<dt><p>Burger</p></dt>
+		<dd>
+			<div class="box-container">
+				<div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/burger/crunchy_chicken_burger.png" alt="" class="images">
+                    <h3>Crunchy Chicken Burger</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 260</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/burger/grill_chicken_burger.png" alt="" class="images">
+                    <h3>Grill Chicken Burger</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 255</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/burger/spicy_chicken_burger.png" alt="" class="images">
+                    <h3>Spicy Chicken Burger</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 260</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/burger/ham_burger.png" alt="" class="images">
+                    <h3>Ham Burger</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 260</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/burger/Veg_burger.png" alt="" class="images">
+                    <h3>Veg Burger</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 260</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/burger/regular_burger.png" alt="" class="images">
+                    <h3>Regular Burger Ham/Chicken</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 160</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/burger/extra_cheese.png" alt="" class="images">
+                    <h3>Extra Cheese</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 260</span>
+                </div>
+            </div>
+		</dd>
+	</dl>  
+</div>
+<!----------------------------------------------------------------------------------------------->
+<!------------------------------------ Sandwich --------------------------------------------->
+<!----------------------------------------------------------------------------------------------->
+<div class="box-main-container" id="sandwich" >
+	<dl>
+		<dt><p>Sandwich</p></dt>
+		<dd>
+			<div class="box-container">
+				<div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/sandwich/club_sandwich.png" alt="" class="images">
+                    <h3>Club Sandwich</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 355</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/sandwich/chicken_sandwich.png" alt="" class="images">
+                    <h3>Chicken Sandwich</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 285</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/sandwich/cheese_sandwich.png" alt="" class="images">
+                    <h3>Cheese Sandwich</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 355</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/sandwich/veg_sandwich.png" alt="" class="images">
+                    <h3>Veg Sandwich</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 285</span>
+                </div>
+
+            </div>
+		</dd>
+	</dl>  
+</div>
+<!----------------------------------------------------------------------------------------------->
+<!------------------------------------ Soup --------------------------------------------->
+<!----------------------------------------------------------------------------------------------->
+<div class="box-main-container" id="soup" >
+	<dl>
+		<dt><p>Soup</p></dt>
+		<dd>
+			<div class="box-container">
+				<div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/soup/mushroom_soup.png" alt="" class="images">
+                    <h3>Mushroom Soup</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 280</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/soup/chicken_soup.png" alt="" class="images">
+                    <h3>Chicken Soup</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 280</span>
+                </div>
+            </div>
+		</dd>
+	</dl>  
+</div>
+<!----------------------------------------------------------------------------------------------->
+<!------------------------------------ Stick Food --------------------------------------------->
+<!----------------------------------------------------------------------------------------------->
+<div class="box-main-container" id="stick_food" >
+	<dl>
+		<dt><p>Stick Food</p></dt>
+		<dd>
+			<div class="box-container">
+				<div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/stick_food/chicken_sausage.png" alt="" class="images">
+                    <h3>Chicken Sausage</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 60</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/stick_food/buff_sausage.png" alt="" class="images">
+                    <h3>Buff Sausage</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 60</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/stick_food/aalo_stick.png" alt="" class="images">
+                    <h3>Aalo Stick</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 60</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/stick_food/mushroom_stick.png" alt="" class="images">
+                    <h3>Mushroom Stick</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 60</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/stick_food/crunchy_chicken_sausage.png" alt="" class="images">
+                    <h3>Crunchy Chicken Sausage</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 95</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/stick_food/crunchy_buff_sausage.png" alt="" class="images">
+                    <h3>Crunchy Buff Sausage</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 95</span>
+                </div>
+            </div>
+		</dd>
+	</dl>  
+</div>
+<!----------------------------------------------------------------------------------------------->
+<!------------------------------------ Momo --------------------------------------------->
+<!----------------------------------------------------------------------------------------------->
+<div class="box-main-container" id="momo" >
+	<dl>
+		<dt><p>Momo</p></dt>
+		<dd>
+			<div class="box-container">
+				<div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/momo/chicken_steam_momo.png" alt="" class="images">
+                    <h3>Chicken Steam Momo</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 180</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/momo/chicken_fried_momo.png" alt="" class="images">
+                    <h3>Chicken Fried Momo</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 195</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/momo/chicken_jhol_momo.png" alt="" class="images">
+                    <h3>Chicken Jhol Momo</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 195</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/momo/chicken_c_momo.png" alt="" class="images">
+                    <h3>Chicken C Momo</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 215</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/momo/chicken_kothey_momo.png" alt="" class="images">
+                    <h3>Chicken Kothey Momo</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 215</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/momo/buff_steam_momo.png" alt="" class="images">
+                    <h3>Buff Steam Momo</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 170</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/momo/buff_fried_momo.png" alt="" class="images">
+                    <h3>Buff Fried Momo</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 180</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/momo/buff_jhol_momo.png" alt="" class="images">
+                    <h3>Buff Jhol Momo</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 180</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/momo/buff_c_momo.png" alt="" class="images">
+                    <h3>Buff C Momo</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 200</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/momo/buff_kothey_momo.png" alt="" class="images">
+                    <h3>Buff Kothey Momo</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 200</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/momo/veg_steam_momo.png" alt="" class="images">
+                    <h3>Veg Steam Momo</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 145</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/momo/veg_fried_momo.png" alt="" class="images">
+                    <h3>Veg Fried Momo</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 160</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/momo/veg_jhol_momo.png" alt="" class="images">
+                    <h3>Veg Jhol Momo</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 160</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/momo/veg_c_momo.png" alt="" class="images">
+                    <h3>Veg C Momo</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 170</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/momo/veg_kothey_momo.png" alt="" class="images">
+                    <h3>Veg Kothey Momo</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 170</span>
+                </div>
+
+            </div>
+		</dd>
+	</dl>  
+</div>
+<!----------------------------------------------------------------------------------------------->
+<!------------------------------------ Noodles --------------------------------------------->
+<!----------------------------------------------------------------------------------------------->
+<div class="box-main-container" id="noodles" >
+	<dl>
+		<dt><p>Noodles</p></dt>
+		<dd>
+			<div class="box-container">
+				<div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/noodles/chicken_noodles.png" alt="" class="images">
+                    <h3>Chicken Noodles</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 215</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/noodles/buff_noodles.png" alt="" class="images">
+                    <h3>Buff Noodles</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 215</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/noodles/veg_noodles.png" alt="" class="images">
+                    <h3>Veg Noodles</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 215</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/noodles/mixed_noodles.png" alt="" class="images">
+                    <h3>Mixed Noodles</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 250</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/noodles/special_spicy_noodles.png" alt="" class="images">
+                    <h3>Special Spicy Noodles</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 310</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/noodles/keema_noodles_chicken.png" alt="" class="images">
+                    <h3>Keema Noodles Chicken</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 320</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/noodles/keema_noodles_buff.png" alt="" class="images">
+                    <h3>Keema Noodles Buff</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 320</span>
+                </div>
+            </div>
+		</dd>
+	</dl>  
+</div>
+<!----------------------------------------------------------------------------------------------->
+<!------------------------------------ Drinks --------------------------------------------->
+<!----------------------------------------------------------------------------------------------->
+<div class="box-main-container" id="drinks" >
+	<dl>
+		<dt><p>Coffee & Drinks</p></dt>
+		<dd>
+			<div class="box-container">
+				<div class ="box">
+					<i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+					<img src="images/coffee/espresso_(single_double).png" alt="" class="images">
+					<h3>Espresso (Single/Double)</h3>
+					<div class="stars">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+					</div>
+					<span>Rs. 135/165</span>
+				</div>
+
+				<div class ="box">
+					<i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+					<img src="images/coffee/americano.png" alt="" class="images">
+					<h3>Americano</h3>
+					<div class="stars">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+					</div>
+					<span>Rs. 170</span>
+				</div>
+
+				<div class ="box">
+					<i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+					<img src="images/coffee/cafe_latte.png" alt="" class="images">
+					<h3>Cafe Latte</h3>
+					<div class="stars">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+					</div>
+					<span>Rs. 190</span>
+				</div>
+
+				<div class ="box">
+					<i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+					<img src="images/coffee/caramel_latte.png" alt="" class="images">
+					<h3>Caramel Latte</h3>
+					<div class="stars">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+					</div>
+					<span>Rs. 215</span>
+				</div>
+
+				<div class ="box">
+					<i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+					<img src="images/coffee/honey_latte.png" alt="" class="images">
+					<h3>Honey Latte</h3>
+					<div class="stars">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+					</div>
+					<span>Rs. 215</span>
+				</div>
+
+				<div class ="box">
+					<i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+					<img src="images/coffee/cappuccino.png" alt="" class="images">
+					<h3>Cappuccino</h3>
+					<div class="stars">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+					</div>
+					<span>Rs. 185</span>
+				</div>
+
+				<div class ="box">
+					<i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+					<img src="images/coffee/flavoured_latte_cappuccino.png" alt="" class="images">
+					<h3>Flavoured Latte/Cappuccino</h3>
+					<div class="stars">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+					</div>
+					<span>Rs. 225</span>
+				</div>
+
+				<div class ="box">
+					<i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+					<img src="images/coffee/cafe_mocha.png" alt="" class="images">
+					<h3>Cafe Mocha</h3>
+					<div class="stars">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+					</div>
+					<span>Rs. 225</span>
+				</div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/coffee/mocha_madness.png" alt="" class="images">
+                    <h3>Mocha Madness</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 230</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/coffee/espresso_affogato.png" alt="" class="images">
+                    <h3>Espresso Affogato</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 220</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/coffee/caramel_macchiato.png" alt="" class="images">
+                    <h3>Caramel Macchiato</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 220</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/coffee/hot_chocolate.png" alt="" class="images">
+                    <h3>Hot Chocolate</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 215</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/coffee/hot_lemon.png" alt="" class="images">
+                    <h3>Hot Lemon</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 95</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/coffee/hot_lemon_with_honey.png" alt="" class="images">
+                    <h3>Hot Lemon with Honey</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 140</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/coffee/black_tea.png" alt="" class="images">
+                    <h3>Black Tea</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 65</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/coffee/milk_tea.png" alt="" class="images">
+                    <h3>Milk Tea</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 85</span>
+                </div>
+
+                <div class ="box">
+					<i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+					<img src="images/coffee/cold_coffee.png" alt="" class="images">
+					<h3>Cold Coffee</h3>
+					<div class="stars">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+					</div>
+					<span>Rs. 240</span>
+				</div>
+
+				<div class ="box">
+					<i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+					<img src="images/coffee/iced_caramel_macchiato.png" alt="" class="images">
+					<h3>Iced Caramel Macchiato</h3>
+					<div class="stars">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+					</div>
+					<span>Rs. 255</span>
+				</div>
+
+				<div class ="box">
+					<i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+					<img src="images/coffee/iced_mocha.png" alt="" class="images">
+					<h3>Iced Mocha</h3>
+					<div class="stars">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+					</div>
+					<span>Rs. 220</span>
+				</div>
+
+				<div class ="box">
+					<i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+					<img src="images/coffee/iced_blended_mocha.png" alt="" class="images">
+					<h3>Iced Blended Mocha</h3>
+					<div class="stars">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+					</div>
+					<span>Rs. 255</span>
+				</div>
+
+				<div class ="box">
+					<i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+					<img src="images/coffee/peach_iced_tea.png" alt="" class="images">
+					<h3>Peach Iced Tea</h3>
+					<div class="stars">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+					</div>
+					<span>Rs. 210</span>
+				</div>
+
+				<div class ="box">
+					<i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+					<img src="images/coffee/apple_iced_tea.png" alt="" class="images">
+					<h3>Apple Iced Tea</h3>
+					<div class="stars">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+					</div>
+					<span>Rs. 210</span>
+				</div>
+
+				<div class ="box">
+					<i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+					<img src="images/coffee/lemon_iced_tea.png" alt="" class="images">
+					<h3>Lemon Iced Tea</h3>
+					<div class="stars">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+					</div>
+					<span>Rs. 210</span>
+				</div>
+
+				<div class ="box">
+					<i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+					<img src="images/coffee/mint_lemonade.png" alt="" class="images">
+					<h3>Mint Lemonade</h3>
+					<div class="stars">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+					</div>
+					<span>Rs. 210</span>
+				</div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/coffee/blended_lemonade.png" alt="" class="images">
+                    <h3>Blended Lemonade</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 220</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/coffee/blended_mint_lemonade.png" alt="" class="images">
+                    <h3>Blended Mint Lemonade</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 235</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/coffee/kiwi_mint_lime.png" alt="" class="images">
+                    <h3>Kiwi Mint Lime</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 210</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/coffee/fruit_punch.png" alt="" class="images">
+                    <h3>Fruit Punch</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 345</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/coffee/frappe.png" alt="" class="images">
+                    <h3>Frappe (Chocolate/ Vanilla/ Strawberry/ Caramel/ Choco Mint)</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 345</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/coffee/mint_lime_refresher.png" alt="" class="images">
+                    <h3>Mint Lime Refresher</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 195</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/coffee/lassi.png" alt="" class="images">
+                    <h3>Lassi (Banana/ Strawberry/ Vanilla)</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 210</span>
+                </div>
+            </div>
+		</dd>
+	</dl>  
+</div>
+<!----------------------------------------------------------------------------------------------->
+<!------------------------------------ Veg Snacks --------------------------------------------->
+<!----------------------------------------------------------------------------------------------->
+<div class="box-main-container" id="veg_snacks" >
+	<dl>
+		<dt><p>Veg Snacks</p></dt>
+		<dd>
+			<div class="box-container">
+				<div class ="box">
+					<i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+					<img src="images/veg_snacks/french_fries.png" alt="" class="images">
+					<h3>French Fries</h3>
+					<div class="stars">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+					</div>
+					<span>Rs. 205</span>
+				</div>
+
+				<div class ="box">
+					<i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+					<img src="images/veg_snacks/chips_chilly.png" alt="" class="images">
+					<h3>Chips Chilly</h3>
+					<div class="stars">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+					</div>
+					<span>Rs. 260</span>
+				</div>
+
+				<div class ="box">
+					<i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+					<img src="images/veg_snacks/mushroom_chilly.png" alt="" class="images">
+					<h3>Mushroom Chilly</h3>
+					<div class="stars">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+					</div>
+					<span>Rs. 305</span>
+				</div>
+
+				<div class ="box">
+					<i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+					<img src="images/veg_snacks/cheese_balls.png" alt="" class="images">
+					<h3>Cheese Balls</h3>
+					<div class="stars">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+					</div>
+					<span>Rs. 385</span>
+				</div>
+
+				<div class ="box">
+					<i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+					<img src="images/veg_snacks/aalu_sandheko.png" alt="" class="images">
+					<h3>Aalu Sandheko</h3>
+					<div class="stars">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+					</div>
+					<span>Rs. 215</span>
+				</div>
+
+				<div class ="box">
+					<i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+					<img src="images/veg_snacks/peanut_sandheko.png" alt="" class="images">
+					<h3>Peanut Sandheko</h3>
+					<div class="stars">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+					</div>
+					<span>Rs. 205</span>
+				</div>
+
+				<div class ="box">
+					<i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+					<img src="images/veg_snacks/animal_fries.png" alt="" class="images">
+					<h3>Animal Fries</h3>
+					<div class="stars">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+					</div>
+					<span>Rs. 320</span>
+				</div>
+
+				<div class ="box">
+					<i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+					<img src="images/veg_snacks/spicy_fries.png" alt="" class="images">
+					<h3>Spicy Fries</h3>
+					<div class="stars">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+					</div>
+					<span>Rs. 235</span>
+				</div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/veg_snacks/wai_wai_sadheko.png" alt="" class="images">
+                    <h3>Wai Wai Sadheko</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 215</span>
+                </div>
+            </div>
+		</dd>
+	</dl>  
+</div>
+<!----------------------------------------------------------------------------------------------->
+<!------------------------------------ Non Veg Snacks --------------------------------------------->
+<!----------------------------------------------------------------------------------------------->
+<div class="box-main-container" id="non_veg_snacks" >
+	<dl>
+		<dt><p>Non Veg Snacks</p></dt>
+		<dd>
+			<div class="box-container">
+				<div class ="box">
+					<i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+					<img src="images/non_veg_snacks/chicken_chilly.png" alt="" class="images">
+					<h3>Chicken Chilly</h3>
+					<div class="stars">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+					</div>
+					<span>Rs. 385</span>
+				</div>
+
+				<div class ="box">
+					<i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+					<img src="images/non_veg_snacks/buff_chilly.png" alt="" class="images">
+					<h3>Buff Chilly</h3>
+					<div class="stars">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+					</div>
+					<span>Rs. 355</span>
+				</div>
+
+				<div class ="box">
+					<i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+					<img src="images/non_veg_snacks/chicken_sausage_chilly.png" alt="" class="images">
+					<h3>Chicken Sausage Chilly</h3>
+					<div class="stars">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+					</div>
+					<span>Rs. 305</span>
+				</div>
+
+				<div class ="box">
+					<i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+					<img src="images/non_veg_snacks/buff_sausage_chilly.png" alt="" class="images">
+					<h3>Buff Sausage Chilly</h3>
+					<div class="stars">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+					</div>
+					<span>Rs. 305</span>
+				</div>
+
+				<div class ="box">
+					<i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+					<img src="images/non_veg_snacks/buffalo_wings.png" alt="" class="images">
+					<h3>buffalo Wings</h3>
+					<div class="stars">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+					</div>
+					<span>Rs. 435</span>
+				</div>
+
+				<div class ="box">
+					<i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+					<img src="images/non_veg_snacks/butter_chicken_puri.png" alt="" class="images">
+					<h3>Butter Chicken Puri</h3>
+					<div class="stars">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+					</div>
+					<span>Rs. 315</span>
+				</div>
+
+				<div class ="box">
+					<i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+					<img src="images/non_veg_snacks/chicken_lollypop.png" alt="" class="images">
+					<h3>Chicken Lollypop</h3>
+					<div class="stars">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+					</div>
+					<span>Rs. 435</span>
+				</div>
+
+				<div class ="box">
+					<i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+					<img src="images/non_veg_snacks/chicken_chhoila.png" alt="" class="images">
+					<h3>Chicken Chhoila</h3>
+					<div class="stars">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+					</div>
+					<span>Rs. 330</span>
+				</div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/non_veg_snacks/buff_chhoila.png" alt="" class="images">
+                    <h3>Buff Chhoila</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 330</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/non_veg_snacks/spicy_wings.png" alt="" class="images">
+                    <h3>Spicy Wings</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 435</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/non_veg_snacks/grilled_prawn.png" alt="" class="images">
+                    <h3>Grilled Prawn</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 700</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/non_veg_snacks/bacon_roll_with_prawn.png" alt="" class="images">
+                    <h3>Bacon Roll with Prawn</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 700</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/non_veg_snacks/prawn_chilly.png" alt="" class="images">
+                    <h3>Prawn Chilly</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 700</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/non_veg_snacks/golden_fried_prawn.png" alt="" class="images">
+                    <h3>Golden Fried Prawn</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 700</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/non_veg_snacks/keema_animal_fries.png" alt="" class="images">
+                    <h3>Keema Animal Fries</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 390</span>
+                </div>
+            </div>
+		</dd>
+	</dl>  
+</div>
+<!----------------------------------------------------------------------------------------------->
+<!------------------------------------ Salad --------------------------------------------->
+<!----------------------------------------------------------------------------------------------->
+<div class="box-main-container" id="salad" >
+	<dl>
+		<dt><p>Salad</p></dt>
+		<dd>
+			<div class="box-container">
+				<div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/salad/green_salad.png" alt="" class="images">
+                    <h3>Green Salad</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 215</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/salad/fruit_salad.png" alt="" class="images">
+                    <h3>Fruit Salad</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 310</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/salad/avocado_chicken_salad.png" alt="" class="images">
+                    <h3>Avocado Chicken Salad</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 700</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/salad/grass_noodles_salad.png" alt="" class="images">
+                    <h3>Grass Noodles Salad</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 510</span>
+                </div>
+            </div>
+		</dd>
+	</dl>  
+</div>
+<!----------------------------------------------------------------------------------------------->
+<!------------------------------------ Shakes --------------------------------------------->
+<!----------------------------------------------------------------------------------------------->
+<div class="box-main-container" id="shakes" >
+	<dl>
+		<dt><p>Smoothies</p></dt>
+		<dd>
+			<div class="box-container">
+				<div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/shakes/oreo_shake.png" alt="" class="images">
+                    <h3>Oreo Shake</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 310</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/shakes/vanilla_shake.png" alt="" class="images">
+                    <h3>Vanilla Shake</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 310</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/shakes/chocolate_shake.png" alt="" class="images">
+                    <h3>Chocolate Shake</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 310</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/shakes/caramel_shake.png" alt="" class="images">
+                    <h3>Caramel Shake</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 310</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/shakes/mango_smoothies.png" alt="" class="images">
+                    <h3>Mango Smoothies</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 310</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/shakes/orange_smoothies.png" alt="" class="images">
+                    <h3>Orange Smoothies</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 310</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/shakes/virgin_mojito.png" alt="" class="images">
+                    <h3>Virgin Mojito</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 215</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/shakes/vanilla_blue.png" alt="" class="images">
+                    <h3>Vanilla Blue</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 215</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/shakes/black_mojito.png" alt="" class="images">
+                    <h3>Black Mojito</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 215</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/shakes/lemon_soda.png" alt="" class="images">
+                    <h3>Lemon Soda</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 140</span>
+                </div>
+
+                <div class ="box">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                    <img src="images/shakes/chicken_station_special_shake.png" alt="" class="images">
+                    <h3>Special Shake</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs. 370</span>
+                </div>
+            </div>
+		</dd>
+	</dl>  
+</div>
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+<!---------------------------------------------------------- Footer Section ------------------------------------------------------------->
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+<footer>
+    <div class="waves">
+        <div class="wave" id="wave1"></div>
+        <div class="wave" id="wave2"></div>
+        <div class="wave" id="wave3"></div>
+        <div class="wave" id="wave4"></div>
+        <div class="wave" id="wave5"></div>
+        <div class="wave" id="wave6"></div>
+    
+        <div class="wave2" id="wave7"></div>
+        <div class="wave2" id="wave8"></div>
+        <div class="wave2" id="wave9"></div>
+        <div class="wave2" id="wave10"></div>
+        <div class="wave2" id="wave11"></div>
+        <div class="wave2" id="wave12"></div>
+    </div>
+    <div class="foot-container">
+        <div class="row">
+            <div class="col">
+                <div class="social-list">
+                    <h3 class="foot-title">Follow Us</h3>
+                    <div class="soc-item">
+                        <a href="#" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                    <div class="soc-item">
+                        <a href="https://www.facebook.com/Chicken-stationmaitidevi-111556431321162" target="_blank">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </div>
+                    <div class="soc-item">
+                        <a href="#" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="address">
+                    <h3 class="foot-title">
+                        Address
+                    </h3>
+                    <p class="foot-content">
+                        " Bhanu Galli, Maitidevi "
+                        <br>
+                        " Kathmandu, Nepal "
+                    </p>
+                </div>
+                <div class="contacts">
+                    <h3 class="foot-title">
+                        Contacts
+                    </h3>
+                    <p class="foot-content">
+                        " Email: chickenstation@gmail.com "
+                        <br>
+                        " Phone: 9844444444 "
+                        <br>
+                        " Landline: 01-0000000"
+                    </p>
+                </div>
+            </div>
+            <div class="col">
+                <h3 class="foot-title">
+                    Opening Hours
+                </h3>
+                <div class="time">
+                    <div class="days">
+                        <span>Sunday</span>
+                        <span>Monday</span>
+                        <span>Tuesday</span>
+                        <span>Wednesday</span>
+                        <span>Thursday</span>
+                        <span>Firday</span>
+                        <span>Saturday</span>
+                    </div>
+                    <div class="hours">
+                        <span>10:00 - 18:00</span>
+                        <span>10:00 - 18:00</span>
+                        <span>10:00 - 18:00</span>
+                        <span>10:00 - 18:00</span>
+                        <span>10:00 - 18:00</span>
+                        <span>10:00 - 18:00</span>
+                        <span>Closed</span>
+                    </div>
+                </div>   
+                </div>
+            <div class="col">
+                <h3 class="foot-title">
+                        Location
+                </h3>
+                <div class="maps">
+                    <h6 class="foot-content">
+                        Default View
+                    </h6>
+                    <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28261.95594826591!2d85.33971637673062!3d27.6942908490108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb193f9aa3fbb9%3A0xa1af63239021acfb!2sChicken%20Station%20Maitidevi!5e0!3m2!1sen!2snp!4v1640786902362!5m2!1sen!2snp" target="-blank"><i class="fas fa-map-marker-alt map"></i></a>
+
+                    <h6 class="foot-content">
+                        Satellite View
+                    </h6>
+                    <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d824.9711039033207!2d85.33334839539438!3d27.703795285754843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb193f9aa3fbb9%3A0xa1af63239021acfb!2sChicken%20Station%20Maitidevi!5e1!3m2!1sen!2snp!4v1640794197169!5m2!1sen!2snp" target="-blank"><i class="fas fa-map-marker-alt map"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+<!---------------------------------------------------------- End Section ---------------------------------------------------------------->
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+<!---------------------------------------------------------- Loader Section ------------------------------------------------------------->
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+
+<div class="loader-container">
+    <img src="images/loader.gif" alt="">
+</div>
+
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+<!---------------------------------------------------------- End Section ---------------------------------------------------------------->
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+
+
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------- Javascript Links -------------------------------------------------------------->
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------->
+<!-------------------------------------- Swiper Link -------------------------------------------->
+<!----------------------------------------------------------------------------------------------->
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<!----------------------------------------------------------------------------------------------->
+<!--------------------------------- Javascript File Link ---------------------------------------->
+<!----------------------------------------------------------------------------------------------->
+<script type="text/javascript" src="script.js"></script>
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+<!---------------------------------------------------------- End Section ---------------------------------------------------------------->
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+
+</body>
+</html>
